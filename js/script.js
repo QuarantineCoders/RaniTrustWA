@@ -552,29 +552,42 @@
     if ($(".testimonials-slider").length) {
         $(".testimonials-slider").owlCarousel({
             margin: 30,
-            autoplayHoverPause:true,
+            autoplay: true,
+            autoplayHoverPause: false,
             loop: true,
-            nav: true,
-            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+            center: true,
             responsive: {
-                0 : {
+                0: {
                     items: 1
                 },
-
-                620 : {
+                620: {
                     items: 2
                 },
-
-                768 : {
+                768: {
                     items: 2
                 },
+                1200: {
+                    items: 3,
 
-                1200 : {
-                    items: 3
+                    onTranslated: function() {
+                        $(".testimonials-slider .client-quote").css({
+                            "transition": "all 0.6s ease",
+                            "background-color": "transparent",
+                            "color": "#000"
+                        });
+    
+                        $(".testimonials-slider .owl-item.center .client-quote").css({
+                            "transition": "all 0.6s ease",
+                            "background-color": "#f0f0f0",
+                            "color": "#333"
+                        });
+                    }
                 }
-            }
+            },
+            
         });
     }
+    
 
 
     /*------------------------------------------
