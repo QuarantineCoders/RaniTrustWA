@@ -2252,7 +2252,21 @@
                 </ul>
               </div>
               <div class="contact-form">
-                <form class="form" id="contact-form">
+                <!-- Form with Email Access -->
+                <form
+                  class="form"
+                  id="contact-form"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                >
+                  <!-- Replace with your Access Key -->
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="43a7da96-678c-447f-8d7b-8268a8953f05"
+                  />
+
+                  <!-- Form Inputs -->
                   <div>
                     <input
                       type="text"
@@ -2267,6 +2281,7 @@
                       name="email"
                       class="form-control"
                       placeholder="Email"
+                      required
                     />
                   </div>
                   <div>
@@ -2282,25 +2297,14 @@
                       class="form-control"
                       name="message"
                       placeholder="write"
+                      required
                     ></textarea>
                   </div>
-                  <div class="submit-btn">
-                    <div class="btn-wrapper">
-                      <button type="submit" class="btn theme-btn">
-                        Submit
-                      </button>
-                      <span id="loader"
-                        ><img src="images/contact-ajax-loader.gif" alt="Loader"
-                      /></span>
-                    </div>
-                  </div>
-                  <div class="col col-md-12 error-handling-messages">
-                    <div id="success">Thank you</div>
-                    <div id="error">
-                      Error occurred while sending email. Please try again
-                      later.
-                    </div>
-                  </div>
+
+                  <!-- hCaptcha Spam Protection -->
+                  <div class="h-captcha" data-captcha="true"></div>
+
+                  <button class="btn theme-btn" type="submit">Submit</button>
                 </form>
               </div>
             </div>
