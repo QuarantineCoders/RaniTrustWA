@@ -46,6 +46,15 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
 
+    <!-- Dynamic Dashbord number animation style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css"
+    integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -339,9 +348,10 @@
         <!-- end container -->
       </section>
       <!-- end about-company-section -->
+      
 
-      <!-- start about-company-section -->
-      <section class="about-company-section section-padding" id="what_be_do">
+      <!-- start what-be-do-company-section -->
+      <section class="about-company-section section-padding" id="about">
         <div class="container">
           <div class="row">
             <div class="col col-md-7 left-col">
@@ -1830,7 +1840,7 @@
         <div class="container">
           <div class="row section-title">
             <div class="col col-md-8 col-md-offset-2">
-              <h2>Recent news</h2>
+              <h2>Gallery</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -2026,8 +2036,14 @@
       </section>
       <!-- end recent-blog -->
 
-      <!-- start about-company-section-s2 -->
+      <!--Start BLOG Slider -->
       <section class="about-company-section-s2 section-padding">
+        <div class="row section-title">
+          <div class="col col-md-8 col-md-offset-2">
+            <h2>Blogs</h2>            
+          </div>
+        </div>
+        <!-- end section-title -->
         <div class="container">
           <div class="row">
             <div class="col col-lg-6 left-col">
@@ -2183,7 +2199,41 @@
         </div>
         <!-- end container -->
       </section>
-      <!-- end about-company-section-s2 -->
+      <!-- End BLOG Slider -->
+
+      
+      <!-- start dynamic Dashbord -->
+
+      <section>
+        <div class="stats-container">
+          <div class="stat">
+            <div class="subscribers-odometer odometer plus">0</div>
+            <div class="type">Years of Experience</div>
+          </div>
+    
+          <div class="stat">
+            <div class="videos-odometer odometer plus">0</div>
+            <div class="type">Thousands of Volunteer</div>
+          </div>
+    
+          <div class="stat">
+            <div class="projects-odometer odometer">0</div>
+            <div class="type">Worldwide Offices</div>
+          </div>
+          <div class="stat">
+            <div class="Organizations-odometer odometer">0</div>
+            <div class="type">Assisting Organizations</div>
+          </div>
+         
+      </section>
+
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"
+      integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+      <!-- end Dynamic Dashbord -->
 
       <!-- start contact-section -->
       <section class="contact-section-wrapper section-padding" id="contact">
