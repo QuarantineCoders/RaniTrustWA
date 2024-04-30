@@ -3314,24 +3314,7 @@ a:focus {
   background-color: transparent;
 }
 
-/* .site-header #navbar > ul > .sub-menu:before {
-  font-family: "FontAwesome";
-  /* content: "\f107"; */
-  /* position: absolute;
-  right: 5px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-} */ 
 
-/* @media (max-width: 991px) {
-  .site-header #navbar > ul > .sub-menu:before {
-    display: none;
-  }
-} */
 
 @media screen and (min-width: 992px) {
   .site-header #navbar > ul > li:hover > ul {
