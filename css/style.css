@@ -3367,7 +3367,7 @@ a:focus {
   }
 }
 
-.site-header #navbar .sub-sub-menu > a {
+/* .site-header #navbar .sub-sub-menu > a {
   position: relative;
 }
 
@@ -3395,7 +3395,7 @@ a:focus {
   .site-header #navbar .sub-sub-menu > a:before {
     line-height: 33px;
   }
-}
+} */
 
 .site-header .search-mini-cart {
   position: absolute;
