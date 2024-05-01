@@ -4655,6 +4655,12 @@ a:focus {
   color: #fff;
   margin: 0 0 0.75em;
 }
+.hero_section-font{
+  font-size: 60px;
+  font-size: 1.75rem;
+  color: #fff;
+  margin: 0 0 0.75em;
+}
 
 @media (max-width: 1199px) {
   .hero-slider-s3 .slide-caption h1 {
@@ -4679,7 +4685,7 @@ a:focus {
 
 .hero-slider-s3 .slide-caption p {
   font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 1.7rem;
   color: #fff;
   margin: 0 0 45px;
 }
