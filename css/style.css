@@ -3256,6 +3256,8 @@ a:focus {
   }
   .site-header .navigation .navbar-brand img {
     max-width: 180px;
+    /* width: 100px;
+    height: auto; */
   }
 }
 
@@ -3753,6 +3755,7 @@ a:focus {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .header-style1 #navbar {
+    
     width: 970px;
     margin: 0;
     border-top: 1px solid #f2f2f2;
@@ -11720,6 +11723,48 @@ a:focus {
   margin-bottom: 0;
 }
 
+
+.navbar-header{
+  /* background-color: #23a884; */
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
+
+}
+.navbar-header button{
+  /* display: none; */
+
+}
+
+/* @media (max-width: 767px) {
+  .navbar-header button{
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  .navbar-header button{
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+  } */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .navbar-header button{
+    display: none;
+  }
+} */
 
 
 
